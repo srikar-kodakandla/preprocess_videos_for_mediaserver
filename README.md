@@ -7,4 +7,5 @@ It won't convert the same file again , it checks if it is already converted and 
 >00 00 * * * screen -dmS jellyfin_convert ipython3 jellyfin_convert.py
 
 The above command will run every night at 12:00 AM
-it converts video in such a way that it is efficient in HTTP streaming and better suited for amazon firestick , it also suits for almost all devices .if you want to explicitly change the device , then you can give your device name . you can search your device name using '''HandBrakeCLI --preset-list'''.
+it converts video in such a way that it is efficient in HTTP streaming and better suited for amazon firestick , it also suits for almost all devices .if you want to explicitly change the device , then you can give your device name . you can search your device name using the following command
+>HandBrakeCLI --preset-list

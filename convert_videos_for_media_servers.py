@@ -22,6 +22,7 @@ if str(d).count("jellyfin_convert")>1:
     sys.exit()
 from tqdm import tqdm
 videos=['mkv','avi','m4v','mp4']
+
 a=[os.path.join(path, name) for path, subdirs, files in os.walk(root) for name in files]
 for formating in tqdm(videos):   
     for i in tqdm(a):
