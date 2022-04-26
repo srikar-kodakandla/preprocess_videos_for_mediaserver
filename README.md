@@ -1,6 +1,6 @@
 Buffering while playing videos because of transcoding ? or do you have very less computational power in your instance then it's better to convert videos before HTTP streaming.
 
-it converts all videos in a given directory so that all devices which are connected plex/jellyfin/emby can play seamlessly. It also removes website names from the files so that plex/jellyfin/emby can recognize the movie names and shows the perfect metadata of any given movie.
+it converts all videos in a given directory so that all devices which are connected to plex/jellyfin/emby can play seamlessly. It also removes website names from the files so that plex/jellyfin/emby can recognize the movie names and shows the perfect metadata of any given movie.
 
 It won't convert the same file again , it checks if it is already converted and skips if it has already converted.so my recommendation is to run this python file using "screen" and also use "crontab" to schedule it to run daily, so that it converts files when ever you add a new video in to that directory.
 
