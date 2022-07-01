@@ -1,4 +1,4 @@
-Buffering while playing videos because of transcoding ? or do you have very less computational power in your instance then it's better to convert videos before HTTP streaming.
+Buffering while playing videos because of transcoding ? or do you have very less computational power in your cloud instance then it's better to convert videos before HTTP streaming.
 
 it converts all videos in a given directory so that all devices which are connected to plex/jellyfin/emby can play seamlessly. It also removes website names from the files so that plex/jellyfin/emby or any other media servers can recognize the movie names and shows the perfect metadata of any given movie.
 
